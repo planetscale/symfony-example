@@ -1,0 +1,16 @@
+.page-links {
+    color: white;
+    font-weight: bolder
+}
+body {
+    min-height: 100vh
+}
+
+.text-gray {
+    color: #aaa
+}
+
+img {
+    height: 170px;
+    width: 140px
+}
