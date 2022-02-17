@@ -9,13 +9,13 @@ For the full tutorial, see the [Symfony PlanetScale documentation](https://docs.
 1. Clone the starter Symfony application:
 
 ```bash
-git clone https://github.com/yemiwebby/symfony-planet.git
+git clone git@github.com:planetscale/symfony-example.git
 ```
 
 2. Navigate into the folder and install the dependencies:
 
 ```bash
-cd symfony-planet
+cd symfony-example
 composer install
 ```
 
