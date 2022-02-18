@@ -1,0 +1,25 @@
+---
+- - :permit
+  - MIT
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-02-17 23:55:53.997649000 Z
+- - :permit
+  - apache-2.0
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-02-17 23:55:56.945685000 Z
+- - :permit
+  - bsd-3-clause
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-02-17 23:56:11.780536000 Z
+- - :permit
+  - bsd-2-clause
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-02-17 23:56:13.798327000 Z
