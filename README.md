@@ -76,7 +76,7 @@ Take note of the values returned to you, as you won't be able to see them again.
 2. Open the `.env.local` file in your Symfony app, find the database connection string shown below and replace it with:
 
 ```
-DATABASE_URL="mysql://<USERNAME>:<PASSWORD>@<ACCESS_HOST_URL>:3306/<DATABASE_NAME>?serverVersion=5.7"
+DATABASE_URL="mysql://<USERNAME>:<PASSWORD>@<ACCESS_HOST_URL>:3306/<DATABASE_NAME>?serverVersion=8.0"
 ```
 Don't forget to replace the placeholders `<USERNAME>`, `<PASSWORD>`, `<ACCESS HOST URL>` and `<DATABASE_NAME>` with the appropriate values from the output above.
 
@@ -96,6 +96,12 @@ The default branch is `main`.
 
 3. Open the `.env.local` file in your Symfony app and update it as follows:
 
+```
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=
+DATABASE_URL=${DB_HOST}:${DB_PORT}/${DB_NAME}?serverVersion=13
+```
 
 The connection uses port `3306` by default, but if that's being used, it will pick a random port. Make sure you paste in whatever port is returned in the terminal. You can leave `DB_USERNAME` and `DB_PASSWORD` blank.
 
