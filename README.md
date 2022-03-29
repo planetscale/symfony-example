@@ -100,7 +100,7 @@ The default branch is `main`.
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_NAME=
-DATABASE_URL=${DB_HOST}:${DB_PORT}/${DB_NAME}?serverVersion=13
+DATABASE_URL=${DB_HOST}:${DB_PORT}/${DB_NAME}?serverVersion=8.0
 ```
 
 The connection uses port `3306` by default, but if that's being used, it will pick a random port. Make sure you paste in whatever port is returned in the terminal. You can leave `DB_USERNAME` and `DB_PASSWORD` blank.
