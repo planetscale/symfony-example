@@ -2,7 +2,7 @@
 
 This sample application demonstrates how to connect to a PlanetScale MySQL database, create and run migrations, seed the database, and display the data.
 
-For the full tutorial, see the [Symfony PlanetScale documentation](https://docs.planetscale.com/tutorials/connect-symfony-app).
+For the full tutorial, see the [Symfony PlanetScale documentation](https://planetscale.com/docs/tutorials/connect-symfony-app).
 
 ## Set up the Symfony app
 
