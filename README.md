@@ -1,5 +1,7 @@
 # Learn how to integrate PlanetScale with a sample Symfony application
 
+> **Note:** This tutorial targets PlanetScale Vitess/MySQL (`mysql://` URLs, port `3306`, and Doctrine's MySQL configuration below). PlanetScale also offers managed PostgreSQL; configure Symfony/Doctrine for PostgreSQL when using those databases. For more information and examples, see the [PlanetScale Postgres documentation](https://planetscale.com/docs/postgres).
+
 This sample application demonstrates how to connect to a PlanetScale MySQL database, create and run migrations, seed the database, and display the data.
 
 For the full tutorial, see the [Symfony PlanetScale documentation](https://planetscale.com/docs/tutorials/connect-symfony-app).
